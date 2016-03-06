@@ -1,0 +1,24 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - LFTPopView (0.1.0)
+  - PureLayout (3.0.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LFTPopView (from `../`)
+  - PureLayout
+
+EXTERNAL SOURCES:
+  LFTPopView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  LFTPopView: d9573ff93fcd218142ccf7c10c5a7892ce1a41e4
+  PureLayout: f35f5384c9c4e4479df041dbe33ad7577b71ddfb
+
+COCOAPODS: 0.39.0

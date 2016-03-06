@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'LFTPopView_Example', :exclusive => true do
+  pod 'LFTPopView', :path => '../'
+  pod 'PureLayout'
+end
+
+target 'LFTPopView_Tests', :exclusive => true do
+  pod 'LFTPopView', :path => '../'
+
+  pod 'FBSnapshotTestCase'
+end
